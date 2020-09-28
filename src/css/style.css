@@ -585,7 +585,8 @@ label {
 .w-select {
   display: block;
   width: 100%;
-  height: 38px;
+  /* height: 38px; */
+  height: 26px;
   padding: 8px 12px;
   margin-bottom: 10px;
   font-size: 14px;
@@ -2467,7 +2468,8 @@ textarea.w-select {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #2b4c5a;
+  background: rgb(0,161,76);
+  background: radial-gradient(circle, rgba(0,161,76,1) 0%, rgba(0,110,57,1) 50%);
   /* background-image: -webkit-linear-gradient(270deg, rgba(82, 180, 174, .8), rgba(82, 180, 174, .8)), url("http://uploads.webflow.com/5978e2cdaa2b710001318df3/597b627608c1b000014a33d8_screen-full.jpg");
   background-image: linear-gradient(180deg, rgba(82, 180, 174, .8), rgba(82, 180, 174, .8)), url("http://uploads.webflow.com/5978e2cdaa2b710001318df3/597b627608c1b000014a33d8_screen-full.jpg"); */
   background-position: 0px 0px, 50% 50%;
@@ -2497,10 +2499,10 @@ textarea.w-select {
 .row {
   position: static;
   padding: 20px;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   /* background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, .9), hsla(0, 0%, 100%, .9));
   background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .9), hsla(0, 0%, 100%, .9)); */
-  box-shadow: 0 0 56px 0 rgba(0, 0, 0, .3);
+  /* box-shadow: 0 0 56px 0 rgba(0, 0, 0, .3); */
 }
 
 .div-block-11 {
@@ -2572,7 +2574,7 @@ textarea.w-select {
 .field-label {
   font-family: 'PT Sans', sans-serif;
   color: #2b4c5a;
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
 }
 
@@ -2583,12 +2585,15 @@ textarea.w-select {
 
 .submit-button {
   width: 49%;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  /* padding-top: 12px;
+  padding-bottom: 12px; */
+  padding-top: 4px;
+  padding-bottom: 4px;
   background-color: #f0a832;
   font-family: Allerdisplay, sans-serif;
   color: #fff;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
   transition-duration: 0.4s;
@@ -2819,9 +2824,8 @@ a:-webkit-any-link {
   }
   .body-2 {
     height: 100%;
-    background-image: -webkit-linear-gradient(270deg, rgba(82, 180, 174, .8), rgba(82, 180, 174, .8)), url("http://uploads.webflow.com/5978e2cdaa2b710001318df3/597b627608c1b000014a33d8_screen-full.jpg");
-    background-image: linear-gradient(180deg, rgba(82, 180, 174, .8), rgba(82, 180, 174, .8)), url("http://uploads.webflow.com/5978e2cdaa2b710001318df3/597b627608c1b000014a33d8_screen-full.jpg");
-    background-position: 0px 0px, 0px 0px;
+    background:  rgba(0,110,57,1);
+    background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
   }
   .section-4 {
@@ -3166,8 +3170,8 @@ a:-webkit-any-link {
     height: auto;
     border-top: 1px none #fff;
     border-left-style: none;
-    background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, .9), hsla(0, 0%, 100%, .9));
-    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .9), hsla(0, 0%, 100%, .9));
+    /* background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, .9), hsla(0, 0%, 100%, .9));
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .9), hsla(0, 0%, 100%, .9)); */
   }
   .heading-7 {
     text-align: center;
@@ -3229,3 +3233,27 @@ a:-webkit-any-link {
 .ml-1 {
   margin-left: 10px;
 }
+
+
+
+
+.borda {
+  background-image: url("../img/borda.png");
+  min-height: 548px;
+  min-width: 521px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.borda-conteudo {
+  width: 50%;
+  left: 23%;
+  top: 31%;
+  position: absolute;
+}
+
+
+
